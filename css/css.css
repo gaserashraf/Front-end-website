@@ -1,0 +1,713 @@
+.container
+{
+    width:1170px;
+    margin:auto;
+}
+.clearfix{clear:both;}
+/*start navbar*/
+.navbar
+{
+    position: fixed;
+    top: 0px;
+    background: rgba(194, 194, 194, 0.57);
+    z-index: 3;
+    width: 100%;
+    height: 65px;
+}
+.navbar .bac
+{
+    position: relative;
+    overflow: hidden;
+}
+.navbar button
+{
+    position: absolute;
+    top:8.5px;
+    left: 175px;
+    background:#01b1d7;
+    padding:10px 15px;
+    border: none;
+    color:white;
+    font-size: 22px;
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    border-radius: 3px;
+}
+.navbar ul
+{
+    position: absolute;
+    top:8.5px;
+    left: 865px;
+    list-style: none;
+
+}
+.navbar ul li
+{
+    float: left;
+    margin-right: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color:#555;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbar ul li:hover
+{
+    color:#01b1d7;
+}
+.navbar ul li.active
+{
+    color:#01b1d7;
+}
+.navbar ul li a{text-decoration: none;color:#555;}
+.navbar ul li a:hover{color:#01b1d7}
+/*end navbar*/
+
+/*startt slider */
+.slider
+{
+    margin-top: 65px;
+    height: 600px;
+    position: relative;
+}
+.slider .cont
+{
+    opacity: 0;
+    z-index: 2;
+    transition: opacity 1s ;
+    position: absolute;
+}
+.slider .cont.active
+{
+    opacity: 1;
+}
+.slider  .caption 
+{
+    position: absolute;
+    left: 175px;
+    top:170px;
+    
+}
+.slider  img
+{
+    height: 600px;
+    z-index: 1;
+    width: 1519px;
+}
+.slider  h1
+{
+    color:white;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size:40px;
+    background:#01b1d7;
+    padding:5px 10px;
+    width: 475px;
+    
+}
+.slider  h1:last-of-type{width:270px;margin-top:-2px;}
+.slider  p
+{
+    color: #01b1d7;
+    font-style: italic;
+    font-size: 20px;
+    line-height:1.7;
+    font-family: sans-serif;
+    font-weight:bold;
+    width: 70%;
+    margin-top:25px;
+    margin-bottom:25px;
+
+}
+.slider  button
+{
+    background:#01b1d7;
+    padding:10px 15px;
+    border: none;
+    color:white;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size: 17px;
+    border:1px solid white;
+}
+
+
+
+/*end slider*/
+
+/*ci*/
+.ci ul
+{
+   list-style:none;
+   text-align: center;
+   padding-left:0px;
+}
+.ci ul li
+{
+    width:7px;
+    height:7px;
+    display:inline-block;
+    border:2px solid #01b1d7;
+    border-radius:10px;
+    cursor:pointer;
+}
+.ci .active{background:#01b1d7 }
+.ci ul li:hover
+{
+    background:#01b1d7;
+}
+/*ci*/
+
+/* start about */
+.about1 .container
+{
+    text-align: center;
+}
+.about1 .container h2
+{
+    color:#555;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size:40px;
+    text-transform: uppercase;
+    margin-bottom:17px
+}
+.about1 .container p
+{
+    color:#8e8e8e;
+    font-size: 17px;
+    line-height:1.7;
+    font-family: sans-serif;
+    margin: auto;
+    width: 50%;
+    margin-bottom:40px
+    
+
+}
+
+.about2 .container
+{
+    border:5px solid #e5eef0;
+    height:800px
+}
+.about2 .container > div{float:left;width: 50%}
+.about2 .container .texts h2
+{
+    color:#555;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size:35px;
+    text-transform: uppercase;
+    margin:90px 0;
+}
+.about2 .container .texts .icon
+{
+    float:left;
+    width:10%;
+    margin-right: 20px;
+    margin-top:-5px
+}
+.about2 .container .texts .icon img
+{
+    width:100%;
+
+}
+.about2 .container .texts .text h3
+{
+    color:#555;
+    font-family: sans-serif;
+    font-size:23px;
+    text-transform: capitalize;
+    margin-bottom: 30px
+    
+}
+.about2 .container .texts .text p
+{
+    color:#8e8e8e;
+    font-size: 17px;
+    line-height:1.7;
+    font-family: sans-serif;
+    width: 80%;
+    margin-left:79px
+
+    
+}
+.about3{background-image:url('../images/about2.jpg');height:490px;margin-top:200px;}
+.about3 .one
+{
+    text-align: center;
+    padding-top:100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    min-height:390px
+    }
+.about3 .one h2
+{
+    color:white;
+    font-family: sans-serif;
+    font-size:40px;
+    font-weight: 100;
+}
+.about3 .one p
+{
+    color:white;
+    font-family: sans-serif;
+    margin-top:-7px
+}
+.about3 .two
+{
+    margin:-170px 150px 0px 150px;
+    
+}
+.about3 .two .pro div
+{
+    color:white;
+    font-family: sans-serif;
+    float: left;
+    width: 25%;
+}
+.about3 .two .pro span
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    margin-right: 20px;
+    margin-top:-20px;
+    text-align: center;
+    float: left;
+    color: #01b1d7;
+}
+/*end abour */
+
+/* start service*/
+.service{text-align: center;margin-top: 100px;margin-bottom:50px}
+.service h1
+{
+    font-family: sans-serif;
+    font-size:40px;
+    
+}
+.service p
+{
+    color:#8e8e8e;
+    line-height: 1.7;
+    width: 40%;
+    margin: auto
+}
+/*end service*/
+
+/*start ourservice*/
+.ourservice{min-height: 500px;overflow: hidden}
+.ourservice .one
+{
+    width: 50%;
+    float: left;
+    background-color: #f2f3f4;
+    min-height: 585px;
+    overflow:hidden;
+    
+    
+}
+.ourservice .one .up
+{
+    margin-top: 50px
+}
+.ourservice .one .box
+{
+    width: 50%;
+    margin-top:10px;
+    float: left;
+    margin-top:20px;
+}
+.ourservice .one .box .icon
+{
+    margin-left: 60px;
+    
+    width:10%;
+}
+.ourservice .one .box .icon img{width: 100%}
+
+.ourservice .one .box .text
+{
+    margin-left: 60px;
+}
+.ourservice .one .box .text h3
+{
+    color: #1c1c1c;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 15px
+}
+.ourservice .one .box .text p
+{
+    color:#5a5a5a;
+    line-height: 1.7;
+    font-family: sans-serif;
+    font-size: 13px;
+    width:80%;
+}
+.ourservice .two
+{
+    float:right;
+    width: 50%;
+    text-align: right;
+    background-color: #1c1c1c;
+    min-height: 585px;
+    
+    
+}
+.ourservice .two h2
+{
+    font-family: sans-serif;
+    font-size:30px;
+    color: white;
+    font-weight: 100;
+    margin-top: 180px;
+    margin-right: 60px;
+}
+.ourservice .two .line
+{
+    background:#01b1d7;
+    height:3px;
+    width: 50px;
+    margin:-20px 0 0 648px
+    
+}
+.ourservice .two p
+{
+    color:#8e8e8e;
+    line-height: 1.7;
+    margin-right: 60px;
+    width: 48%;
+    float:right;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+    font-size: 15px
+
+    
+}
+
+.ourservice .two button
+{
+    margin-right: 60px;
+    background:#01b1d7;
+    padding:10px 20px;
+    border: none;
+    color:white;
+    font-family: sans-serif;
+}
+
+/*end ourservice*/
+
+/* start book*/
+.book{background:#222222;min-height: 160px}
+.book h2
+{
+    margin-top: 0px;
+    padding-top: 50px;
+    font-family: sans-serif;
+    font-size:22px;
+    color: white;
+    margin-bottom: 0px
+}
+.book span{color:#01b1d7}
+.book p
+{
+    font-size: 17px;
+    color: #9d9d9d;
+    float: left;
+    font-family: sans-serif;
+}
+.book button
+{
+    float: right;
+    background-color: #01b1d7;
+    width: 180px;
+    height: 50px;
+    color: #fff;
+    font-family: sans-serif;
+    border: none;
+    cursor: pointer;
+    margin-top: -20px
+}
+.book button:hover
+{
+    background: white;
+    color:#01b1d7;
+}
+/*end book*/
+
+/*start portfolio */
+.portfolio
+{
+    min-height: 500px
+}
+.portfolio .text
+{
+    text-align: center;
+    margin-top: 100px
+}
+.portfolio .text h1
+{
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-bottom: 15px
+}
+.portfolio .text p
+{
+    width: 35%;
+    margin: auto;
+    line-height: 25px;
+    color: #8e8e8e;
+    margin-bottom: 50px;
+    
+}
+.portfolio .imgs div
+{
+    width:25%;
+    float: left;
+}
+.portfolio .imgs img
+{
+    width: 100%;
+    margin-top:-4px
+}
+/*end porrfolio*/
+
+/*get*/
+.get
+{
+    text-align: center;
+    padding-top: 200px
+}
+.get h1
+{
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+.get p
+{
+    width: 35%;
+    margin: auto;
+    line-height: 25px;
+    color: #8e8e8e;
+    margin-bottom: 50px;
+}
+/*get*/
+
+/* start form*/
+.form .container
+{
+    text-align: center
+}
+.form .container div
+{
+    float: left;
+    width: 33.333%;
+    margin-bottom: 40px
+}
+.form .container input
+{
+    width: 90%;
+    height:40px;
+    margin-right: 50px;
+    
+    border-color:#ebebeb
+}
+.form .container textarea
+{
+    width: 96.5%;
+    height: 150px;
+    border-color:#ebebeb;
+    float: left;
+    
+}
+input[type="text"], input[type="password"], input[type="email"], textarea
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #7e7e7e;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0 15px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-transition: border linear .3s;
+    -webkit-transition: border linear .3s;
+    -o-transition: border linear .3s;
+    transition: border linear .3s;
+    border-radius: 4px
+}
+.form .container button
+{
+    margin-top: 20px;
+    background:white;
+    padding:10px 15px;
+    border: 1px solid #01b1d7;
+    color:#7e7e7e;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size: 17px;
+    border-radius: 1px;
+    cursor: pointer;
+    
+}
+.form .container button:hover
+{
+    color: white;
+    background:#01b1d7 
+}
+/* end form*/
+
+/*content*/
+.CONTACT
+{
+    text-align: center;
+    padding-top: 80px
+}
+.CONTACT h1
+{
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+.CONTACT p
+{
+    width: 35%;
+    margin: auto;
+    line-height: 25px;
+    color: #8e8e8e;
+    margin-bottom: 50px;
+}
+/*content*/
+
+/* start client */
+.client
+{
+    margin-top: 100px;
+}
+.client .container div
+{
+    float: left;
+    width: 16.66667%
+}
+.client .container .down{margin-top: 20px}
+/* end client */
+
+/* start footer */
+.footer
+{
+    margin-top: 280px;
+    background-color: #181818;
+    padding: 50px 0;
+    min-height: 300px
+}
+.footer .container .about,.footer .container .last,.footer .container .follow
+{
+    width: 33.33%;
+    float: left;
+    
+}
+.footer .container .about
+{
+    
+}
+.footer .container h3
+{
+    font-family: sans-serif;
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+}
+.footer .container .line
+{
+    background: #01b1d7;
+    height: 3px;
+    width: 57px;
+    margin-top: -14px;
+    margin-bottom: 20px
+}
+.footer .container .about p
+{
+    color:#5a5a5a;
+    line-height: 1.7;
+    font-family: sans-serif;
+    width: 85%;
+    margin-top: 32px
+}
+.footer .container .about p:last-of-type
+{
+    margin-top:30px
+}
+
+.footer .container ul
+{
+    padding-left: 0;
+    list-style-type: circle
+}
+.footer .container ul li
+{
+    color:#5a5a5a;
+    line-height: 1.7;
+    font-family: sans-serif;
+    border-bottom: 1px solid #8b8b8b;
+    padding: 10px 0;
+    width: 85%;
+}
+.footer .imgs div
+{
+    float: left;
+    width: 33.33%;
+
+}
+.footer .imgs div img
+{
+    width: 100%;
+    margin-top:-4px
+}
+
+/*end footer*/
+
+/* start end*/
+.end
+{
+    margin-top: -16px;
+    background: #282828;
+    padding: 10px 0 12px 0;
+    overflow: hidden;
+}
+.end p
+{
+    color: #8e8e8e;
+    line-height: 1.3;
+    font-family: sans-serif;
+    float: left;
+}
+.end span
+{
+   color: white 
+}
+.end ul
+{
+    float: right;
+    list-style: none;
+}
+.end ul li
+{
+    float: left;
+    margin-left:10px;
+    color: #8e8e8e;
+    font-family: sans-serif;
+    margin-top: 5px
+}
+
+.end a
+{
+   color: #8e8e8e;
+   text-decoration: none;
+}
+/* end end*/
